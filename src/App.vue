@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="primary" dark> </v-app-bar>
 
-    <v-main>
+    <v-main class="ma-3 ma-md-6">
       <router-view />
     </v-main>
   </v-app>
