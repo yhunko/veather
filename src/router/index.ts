@@ -9,6 +9,11 @@ const routes: Array<RouteConfig> = [
     path: "/",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/full/:id",
+    name: "FullReport",
+    component: () => import("../views/FullReport.vue")
   }
 ];
 
