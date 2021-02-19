@@ -134,7 +134,6 @@ export default Vue.extend({
             (cityData: Weather) => cityData.id === data.id
           )
         ) {
-          console.log(data);
           this.$store.commit("weather/add", data);
         }
         this.cityToAdd = "";
